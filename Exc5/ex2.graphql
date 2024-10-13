@@ -1,0 +1,9 @@
+   query {
+       getDocuments(clientId: "123") {
+           id
+           type
+           number
+           issueDate
+           expiryDate
+       }
+   }

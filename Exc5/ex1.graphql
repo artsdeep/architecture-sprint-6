@@ -1,0 +1,17 @@
+   query {
+       getClient(id: "123") {
+           id
+           name
+           age
+           documents {
+               id
+               type
+               number
+           }
+           relatives {
+               id
+               relationType
+               name
+           }
+       }
+   }

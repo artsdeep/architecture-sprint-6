@@ -1,0 +1,8 @@
+   query {
+       getRelatives(clientId: "123") {
+           id
+           relationType
+           name
+           age
+       }
+   }
